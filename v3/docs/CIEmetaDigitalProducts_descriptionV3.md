@@ -198,6 +198,7 @@ An important point is to give the user the possibility to check the integrity of
 The following CMD can be used on any WinOS to generate the hashes:
 
 >certutil -hashfile "filename.exe" MD5 
+
 >certutil -hashfile "filename.exe" SHA256
 
 
